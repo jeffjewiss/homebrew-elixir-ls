@@ -8,8 +8,8 @@ class ElixirLs < Formula
 
   bottle :unneeded
 
-  depends_on "erlang"
-  depends_on "elixir"
+  # depends_on "erlang"
+  # depends_on "elixir"
 
   uses_from_macos "unzip" => :build
 
